@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bootcamp-aula06"
+version = "0.1.0"
+description = ""
+authors = ["Alexandre Lima <alexandrepompeu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+blue = "^0.9.1"
+sql-formatter = "^0.6.2"
+mkdocs = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
